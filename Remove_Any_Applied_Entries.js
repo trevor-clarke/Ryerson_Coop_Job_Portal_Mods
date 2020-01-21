@@ -1,3 +1,4 @@
+removeApplied();
 function removeApplied() {
         var elements = document.querySelectorAll('a[role="button"]');
         for(var i = 0; i<elements.length; i++){
